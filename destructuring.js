@@ -1,6 +1,6 @@
-let arr = ["Numan", "Ahmar", "Imran"]
+let arr = ["Numan", "Ahmar", "Imran"];
 
-// * Array Destructuring 
+// * Array Destructuring
 // * const [numan, ahmar, imran] = arr
 // * console.log(numan, ahmar, imran)
 
@@ -10,14 +10,13 @@ let arr = ["Numan", "Ahmar", "Imran"]
 // const [, , imran] = arr
 // console.log(imran)
 
-
-// * Object Destructuring 
+// * Object Destructuring * //
 let obj = {
-    name: "Numan",
-    color: "Fair",
-    age: 21,
-    city: "Arifwala",
-}
+  name: "Numan",
+  color: "Fair",
+  age: 21,
+  city: "Arifwala",
+};
 
 const { name, age } = obj;
-console.log(name, age)
+console.log(name, age);

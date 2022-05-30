@@ -1,1 +1,1 @@
-console.log("JS is fun")
+console.log("JS is fun 😋")

@@ -1,14 +1,14 @@
-const getMinutes = (minutes) =>{
-    return minutes;
-}
+const getMinutes = (minutes) => {
+  return minutes;
+};
 
-const calculateTime = () =>{
-    let totalMins = getMinutes(323);
-    let totalHours = totalMins / 60;
-    let remMins = totalMins % 60;
+const calculateTime = () => {
+  let totalMins = getMinutes(400);
+  let totalHours = Math.floor(totalMins / 60);
+  let remMins = totalMins % 60;
 
-    console.log(`${Math.floor(totalHours)} hours and ${remMins} mins.`)
-}
+  console.log(`${totalHours} hours and ${remMins} mins.`);
+};
 
-calculateTime()
+calculateTime();
 // console.log(18+60+25+70+80+70)
