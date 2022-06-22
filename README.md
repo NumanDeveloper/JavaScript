@@ -1,7 +1,7 @@
 # JavaScript
 This repo will be used to push practice JavaScript codes
 
-# isPalindrome.js
+## isPalindrome.js
 * Logic is very simple
 * `Point two pointers` to start and end of string respectively
 * `Traverse` in forward and backward at once 

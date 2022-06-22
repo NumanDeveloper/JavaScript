@@ -1,3 +1,13 @@
+/*
+ * Logic is very simple
+ * `Point two pointers` to start and end of string respectively
+ * `Traverse` in forward and backward at once
+ * Continuously `compare` corresponding letter in a loop
+ * If at any point, corresponding letters do not match, return `false`
+ * If loop terminates successfully, return `true`
+ */
+
+
 const isPalindrome = (str) => {
   let left = 0;
   let right = str.length - 1; // last index of str
