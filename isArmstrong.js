@@ -1,19 +1,19 @@
 // * Armstrong Number Checker * //
 /*
- * A number is armstrong if the sum of cube of its digits is equal to the number
- * itself.
+ * A number is armstrong if the sum of cube of its digits
+ * is equal to the number itself.
  */
 
 const isArmstrong = (num) => {
   let sum = 0,
     temp,
     digit;
-    
+
   temp = num;
 
   while (temp > 0) {
     digit = temp % 10;
-    sum = sum + digit * digit * digit;
+    sum = sum + digit ** 3;
     temp = Math.trunc(temp / 10);
   }
 

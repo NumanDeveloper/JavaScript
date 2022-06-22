@@ -11,4 +11,3 @@ const calculateTime = () => {
 };
 
 calculateTime();
-// console.log(18+60+25+70+80+70)

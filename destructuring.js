@@ -1,22 +1,22 @@
 let arr = ["Numan", "Ahmar", "Imran"];
 
 // * Array Destructuring
-// * const [numan, ahmar, imran] = arr
-// * console.log(numan, ahmar, imran)
+const [numan, ahmar, imran] = arr
+console.log(numan, ahmar, imran)
 
-// const [,ahmar] = arr
-// console.log(ahmar)
+const [,ahmar2] = arr
+console.log(ahmar2)
 
-// const [, , imran] = arr
-// console.log(imran)
+const [, , imran2] = arr
+console.log(imran2)
 
 // * Object Destructuring * //
 let obj = {
-  name: "Numan",
+  goodName: "Numan Iftikhar",
   color: "Fair",
   age: 21,
   city: "Arifwala",
 };
 
-const { name, age } = obj;
-console.log(name, age);
+const { goodName, age } = obj;
+console.log(goodName, age);
